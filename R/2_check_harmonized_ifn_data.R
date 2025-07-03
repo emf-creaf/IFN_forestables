@@ -45,16 +45,9 @@ check_missing_codes <- function(x) {
   print(shrub_codes_mis_all)
 }
 
-provinces <- c("01","02","03","04", "05","06", "07", "08", "09",
-               as.character(10:50))
-
-tree_codes_mis_all <- character()
-shrub_codes_mis_all <- character()
-for(p in provinces) {
-  file_out <- paste0("Products/IFN4/", p, ".rds")
-  if(file.exists(file_out)) {
-    x <- readRDS(file_out)  
-    tree_codes_mis_all <- sort(unique(c(tree_codes_mis_all, check_missing_tree_codes(x))))
-    shrub_codes_mis_all <- sort(unique(c(shrub_codes_mis_all, check_missing_shrub_codes(x))))
-  }
+checkmissing_codes_ifn <- function(sf_harm) {
+  x <- readRDS(sf_harm)  
+  tree_codes_mis_all <- sort(check_missing_tree_codes(x))
+  shrub_codes_mis_all <- sort(check_missing_shrub_codes(x))
+  return(list(tree_codes = tree_codes_mis_all, shrub_codes = shrub_codes_mis_all))
 }
