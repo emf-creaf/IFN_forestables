@@ -13,7 +13,7 @@ tar_source("R/1_harmonizing_ifn_data.R")
 
 values <- tidyr::expand_grid(
   ifn = c("IFN2", "IFN3"),#, "IFN4"),
-  province = c("01","02","03","04"),#, "05","06", "07", "08", "09", as.character(10:50))
+  province = c("01","02","03","04", "05","06", "07", "08", "09", as.character(10:50))
 )
 
 # Replace the target list below with your own:

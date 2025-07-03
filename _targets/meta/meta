@@ -20,9 +20,6 @@ sf_harm_IFN2_40|stem|43c9782f88637308|08d9fa8f23998f19|767cac0eaf69f7c5|-2045654
 sf_harm_IFN2_41|stem|6aa2e2481d9a9e46|2726ab0f47a2b688|767cac0eaf69f7c5|1724526664|data/IFN2/41.rds|t20272.3508568109s|s102955b|102955|file|local|vector|||121.058||
 sf_harm_IFN2_43|stem|a53d1cd4df4beee4|71ea720b8d2c9472|767cac0eaf69f7c5|-974309849|data/IFN2/43.rds|t20272.3519570768s|s232118b|232118|file|local|vector|||187.256||
 sf_harm_IFN2_45|stem|604d952952ab540e|83316539badd34c1|767cac0eaf69f7c5|-1785260618|data/IFN2/45.rds|t20272.3522453382s|s117198b|117198|file|local|vector|||125.934||
-.Random.seed|object|d914896f4b084d81
-harmonize_ifn|function|d0258e7dcc247a20
-values|object|eb1410edbd0613b6
 sf_harm_IFN2_03|stem|c3ddc98f6624e613|4d530c4b9305c891|3c179273576de5f6|-970557198|data/IFN2/IFN2_03.rds|t20272.3564409221s|s104246b|104246|file|local|vector|||121.983||
 sf_harm_IFN2_04|stem|55d6fd209381a31d|7532e6bad0b8ef68|3c179273576de5f6|2023887963|data/IFN2/IFN2_04.rds|t20272.3564551934s|s113943b|113943|file|local|vector|||123.093||
 sf_harm_IFN2_01|stem|3e3108c864ee15f8|e667b9e6af412c39|3c179273576de5f6|-2099171503|data/IFN2/IFN2_01.rds|t20272.357180147s|s298511b|298511|file|local|vector|||186.005|There was 1 warning in `dplyr::mutate()`. ℹ In argument: `slope = as.numeric(stringr::str_replace(.data$slope, ',',   '.'))`. Caused by warning: ! NAs introduced by coercion. There was 1 warning in `dplyr::mutate()`. ℹ In argument: `slope = as.numeric(stringr::str_replace(.data$slope, ',',   '.'))`. Caused by warning: ! NAs introduced by coercion|
@@ -31,3 +28,12 @@ sf_harm_IFN3_01|stem|f8f6c2271f5734c3|378bb9f9cacab4e8|3c179273576de5f6|-6509849
 sf_harm_IFN3_03|stem|a5e208d53c6b4c7b|4f53a1b3e4e02ad4|3c179273576de5f6|-334323274|data/IFN3/IFN3_03.rds|t20272.3582878675s|s207514b|207514|file|local|vector|||158.217||
 sf_harm_IFN3_04|stem|719752013815e605|d5cedf002c9d2cfc|3c179273576de5f6|-164106158|data/IFN3/IFN3_04.rds|t20272.3586511314s|s209113b|209113|file|local|vector|||127.054||
 sf_harm_IFN3_02|stem|c45400b5bab7ebc3|8104d281533fd5c9|3c179273576de5f6|-292837717|data/IFN3/IFN3_02.rds|t20272.3589094729s|s350409b|350409|file|local|vector|||213.206||
+.Random.seed|object|0532372a0241d074
+harmonize_ifn|function|d0258e7dcc247a20
+values|object|eb1410edbd0613b6
+.Random.seed|object|8d982406897d2def
+harmonize_ifn|function|d0258e7dcc247a20
+values|object|611c39f97503d631
+sf_harm_IFN2_07|stem|43f9ec064ec49ba6|81120f77836358ec|3c179273576de5f6|571040232|data/IFN2/IFN2_07.rds|t20272.363850962s|s132934b|132934|file|local|vector|||82.039|File 'data-raw/DATEST07.DBF' has some errors in the coordinates (missing coordinates, bad format...). ℹ These records will be removed from the results|
+sf_harm_IFN2_05|stem|3011fbb6153ccb82|f272b55fc57188ba|3c179273576de5f6|1885179566|data/IFN2/IFN2_05.rds|t20272.3643981208s|s170965b|170965|file|local|vector|||129.497||
+sf_harm_IFN2_06|stem|088014fbbb1353b3|4143c7167db51187|3c179273576de5f6|1885322327|data/IFN2/IFN2_06.rds|t20272.3663287475s|s205287b|205287|file|local|vector|||296.301||
